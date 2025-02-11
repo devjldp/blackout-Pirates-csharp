@@ -16,8 +16,6 @@ const NavBar = () => {
                 <li>LogIn</li>
             </ul>
         </nav>
-    
-    
     </div>
   )
 }

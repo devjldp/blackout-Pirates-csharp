@@ -1,8 +1,6 @@
 /* using variables */
 :root {
   --background-color: #000000;
-  --shadow-color: #403F3F;
-  --white: #fafafa
 }
 
 body{
@@ -10,6 +8,12 @@ body{
   background-color: var(--background-color);
 }
 
-.text-white{
-  color: var(--white);
+main{
+  margin: 0 auto;
+  text-align: center;
 }
+#main-image{
+  width: 80%;
+}
+
+

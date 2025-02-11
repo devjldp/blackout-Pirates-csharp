@@ -1,16 +1,20 @@
 :root {
-    --main-logo: #DE8E5D;
+    --link-hover: #f0f8ff;
     --link-colors: #FF8438;
+    --navBar-bg: rgba(64, 63, 63, 0.85);
 }
 
 .navBar{
-    margin: 0;
     width: 100%;
+    margin: 0;
+    background-color: var(--navBar-bg);
     color: var(--link-colors);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    z-index: 1000;
+    /* position: fixed; */
 }
 
 .navBar > h1 {
@@ -25,6 +29,7 @@
 
 .navBar-links{
     width: 100%;
+    padding-left: 0;
     list-style: none;
     margin: 0;
     display: flex;
@@ -33,3 +38,7 @@
     justify-content: space-evenly;
 }
 
+.navBar-links > li:hover  {
+    cursor: default;
+    color: #f0f8ff;
+}

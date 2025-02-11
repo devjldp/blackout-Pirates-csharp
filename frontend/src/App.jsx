@@ -13,11 +13,14 @@ function App() {
     <div id='backgorund-color'>
       <header>
         <NavBar />
-
       </header>
-      <main id=''>
+      <main>
+        <img src="./public/assets/images/mainImage.webp" alt="Band main image" id='main-image'/>
+        
       </main>
+      <footer>
 
+      </footer>
     </div>
   )
 }
