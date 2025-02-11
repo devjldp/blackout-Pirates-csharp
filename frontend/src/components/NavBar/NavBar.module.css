@@ -1,0 +1,35 @@
+:root {
+    --main-logo: #DE8E5D;
+    --link-colors: #FF8438;
+}
+
+.navBar{
+    margin: 0;
+    width: 100%;
+    color: var(--link-colors);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar > h1 {
+    margin: 0;
+    width: 40%;
+    text-align: center;
+}
+
+.navBar > nav{
+    width: 60%;
+}
+
+.navBar-links{
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
