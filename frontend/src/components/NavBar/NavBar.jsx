@@ -11,23 +11,23 @@ const NavBar = () => {
         <nav>
             <ul className={`${styles['navBar-links']}`} >
                 <li>
-                  <Link to="/">Home</Link>
+                  <Link to="/" className={`${styles['navBar-link']}`}>Home</Link>
                 </li>
                 
                 <li>
-                  <Link to="band">The Band</Link>
+                  <Link to="band" className={`${styles['navBar-link']}`}>The Band</Link>
                 </li>
                 <li>
-                  <Link to="worldtour">World tour</Link>
+                  <Link to="worldtour" className={`${styles['navBar-link']}`}>World tour</Link>
                 </li>
                 <li>
-                  <Link to="shop">Shop</Link>
+                  <Link to="shop" className={`${styles['navBar-link']}`}>Shop</Link>
                 </li>
                 <li>
-                  <Link to="blog">Blog</Link>
+                  <Link to="blog" className={`${styles['navBar-link']}`}>Blog</Link>
                 </li>
                 <li>
-                  <Link to="login">LogIn</Link>
+                  <Link to="login" className={`${styles['navBar-link']}`}>LogIn</Link>
                 </li>
             </ul>
         </nav>
