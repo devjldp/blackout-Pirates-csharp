@@ -45,7 +45,13 @@
     font-size: 200%;
 }
 
-.navBar-links > li:hover  {
+
+.navBar-link{
+    text-decoration: none;
+    color: var(--link-colors);
+}
+
+.navBar-link:hover  {
     cursor: default;
     color: #f0f8ff;
 }
