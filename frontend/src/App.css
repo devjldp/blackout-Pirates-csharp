@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Island+Moments&display=swap');
 /* using variables */
 :root {
   --background-color: #000000;
+  --main-title: #FF8438;
+  --link-hover: #f0f8ff;
+  --link-colors: #FF8438;
+  --navBar-bg: rgba(64, 63, 63, 0.85);
+  --font-title: "Irish Grover", serif;
+  --font-link: "Island Moments", serif;
 }
 
 body{
@@ -19,4 +26,12 @@ main{
 
 .text-white{
   color: white;
+}
+
+.main-title
+{
+  color: var(--main-title);
+  text-align: center;
+  font-family: var(--font-link);
+  font-size: 650%;
 }

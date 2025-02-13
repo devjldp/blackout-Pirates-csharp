@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Island+Moments&display=swap');
-
-:root {
-    --link-hover: #f0f8ff;
-    --link-colors: #FF8438;
-    --navBar-bg: rgba(64, 63, 63, 0.85);
-}
+/* @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Island+Moments&display=swap'); */
 
 .navBar{
     width: 100%;
@@ -16,14 +10,15 @@
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
-    /* position: fixed; */
+    position: sticky;
+    top: 0;
 }
 
 .navBar > h1 {
     margin: 0;
     width: 40%;
     text-align: center;
-    font-family: "Irish Grover", serif;
+    font-family: var(--font-title);
     font-weight: 400;
 }
 
@@ -40,7 +35,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    font-family: "Island Moments", serif;
+    font-family: var(--font-link);
     font-weight: 400;
     font-size: 200%;
 }
