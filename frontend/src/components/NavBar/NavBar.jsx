@@ -1,6 +1,8 @@
+// imports
 import styles from './NavBar.module.css';
 
 import React from 'react'
+import { Link } from 'react-router'; 
 
 const NavBar = () => {
   return (
@@ -8,12 +10,25 @@ const NavBar = () => {
         <h1>BlackOut Pirates</h1>
         <nav>
             <ul className={`${styles['navBar-links']}`} >
-                <li>Home</li>
-                <li>The Band</li>
-                <li>World tour</li>
-                <li>Shop</li>
-                <li>Blog</li>
-                <li>LogIn</li>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                
+                <li>
+                  <Link to="band">The Band</Link>
+                </li>
+                <li>
+                  <Link to="worldtour">World tour</Link>
+                </li>
+                <li>
+                  <Link to="shop">Shop</Link>
+                </li>
+                <li>
+                  <Link to="blog">Blog</Link>
+                </li>
+                <li>
+                  <Link to="login">LogIn</Link>
+                </li>
             </ul>
         </nav>
     </div>
