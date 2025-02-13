@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Island+Moments&display=swap');
+
 :root {
     --link-hover: #f0f8ff;
     --link-colors: #FF8438;
@@ -21,6 +23,8 @@
     margin: 0;
     width: 40%;
     text-align: center;
+    font-family: "Irish Grover", serif;
+    font-weight: 400;
 }
 
 .navBar > nav{
@@ -36,6 +40,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    font-family: "Island Moments", serif;
+    font-weight: 400;
+    font-size: 200%;
 }
 
 .navBar-links > li:hover  {
