@@ -15,19 +15,19 @@ const NavBar = () => {
                 </li>
                 
                 <li>
-                  <Link to="band" className={`${styles['navBar-link']}`}>The Band</Link>
+                  <Link to="/band" className={`${styles['navBar-link']}`}>The Band</Link>
                 </li>
                 <li>
-                  <Link to="worldtour" className={`${styles['navBar-link']}`}>World tour</Link>
+                  <Link to="/worldtour" className={`${styles['navBar-link']}`}>World tour</Link>
                 </li>
                 <li>
-                  <Link to="shop" className={`${styles['navBar-link']}`}>Shop</Link>
+                  <Link to="/shop" className={`${styles['navBar-link']}`}>Shop</Link>
                 </li>
                 <li>
-                  <Link to="blog" className={`${styles['navBar-link']}`}>Blog</Link>
+                  <Link to="/blog" className={`${styles['navBar-link']}`}>Blog</Link>
                 </li>
                 <li>
-                  <Link to="login" className={`${styles['navBar-link']}`}>LogIn</Link>
+                  <Link to="/login" className={`${styles['navBar-link']}`}>LogIn</Link>
                 </li>
             </ul>
         </nav>
