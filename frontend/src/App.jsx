@@ -21,25 +21,23 @@ function App() {
 
 
   return (
-    <div id='backgorund-color'>
+    <div>
       <header>
         <BrowserRouter>
+        {/* components and routes go here  */}
           <NavBar />
           <Routes>
-            <Route path='/' element={<Home />} />
+            <Route index element={<Home />} />
             <Route path='/band' element={<Band />} />
             <Route path='/worldtour' element={<Worldtour />} />
             <Route path='/shop' element={<Shop />} />
             <Route path='/blog' element={<Blog />} />
             <Route path='/login' element={<LogIn/>} />
           </Routes>
-        
         </BrowserRouter>
       </header>
 
-
       <footer>
-
       </footer> 
     </div>
   )

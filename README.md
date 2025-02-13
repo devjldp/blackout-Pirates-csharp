@@ -7,5 +7,5 @@ The application will showcase the band's music, events, and merchandise. The fro
 
 This project aims to demonstrate the integration of a modern JavaScript framework with a robust backend architecture, allowing for dynamic content management and user interaction.
 
-* [Front End Design]()
-* [Back End Design]()
+* [Front End Documentation](./frontend/README.md)
+* [Back End Documentation]()
