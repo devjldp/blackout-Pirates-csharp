@@ -1,6 +1,33 @@
 [
   {
     "name": "Captain Rocco \"Stormfist\" Greybeard",
-    "description": "Charismatic Captain Rocco \"Stormfist\" Greybeard is the heart and soul of the band. Before becoming the leader of the Black Sails, Rocco was a feared corsair known for his combat skills and powerful voice.\n\nHis vocal style blends battle cries with epic melodies, taking listeners on a wild journey across stormy seas. His imposing presence, coupled with his grey beard and a tricorn hat adorned with feathers and jewels, makes him the focal point of every performance."
+    "description": "Charismatic Captain  Stormfist is the heart and soul of the band. Before becoming the leader of the Black Sails, Rocco was a feared corsair known for his combat skills and powerful voice.\n\nHis vocal style blends battle cries with epic melodies, taking listeners on a wild journey across stormy seas. His imposing presence, coupled with his grey beard and a tricorn hat adorned with feathers and jewels, makes him the focal point of every performance.",
+    "url": "/assets/images/band/rocco.jpeg"
+  },
+  {
+    "name": "Sienna \"Silverwave\" Byrne",
+    "description": "Silverwave is the band's violinist and backup vocalist, adding a mystical dimension to their music. Her violin, with its golden embellishments, creates melodies that evoke the magic of unexplored seas. Her siren-like voice and skillful violin playing bring an extra layer of depth and emotion to each performance. Raised in a family of sailors, Sienna blends her love for the sea with her musical talent.",
+    "url": "/assets/images/band/sienna.jpeg"
+  },
+  {
+    "name": "Jax \"Thunderstrike\" O'Malley",
+    "description": "Thunderstrike O'Malley is the band's lead guitarist, renowned for his electrifying solos and energetic stage presence. With a custom electric guitar shaped like a pirate ship's prow, Jax merges his love for rock with his passion for the sea. Before joining the Black Sails, he was a street performer in distant ports, perfecting his technique and electrifying crowds.",
+    "url": "/assets/images/band/jax.jpeg"
+  },
+  {
+    "name": "Finn \"Seastorm\" McAllister",
+    "description": "Seastorm McAllister is the band's accordion player, whose melodies ripple like thunder across the high seas. His accordion, decorated with nautical motifs, adds a unique, old-world charm to the band's sound. Known for his calm demeanor in both storms and on stage, Finn provides a steady, rhythmic foundation for the band’s performances.",
+    "url": "/assets/images/band/finn.jpeg"
+  },
+  {
+    "name": "Lila \"Stormwave\" Hawkins",
+    "description": "Stormwave Hawkins is the band's bassist, delivering deep, resonant grooves that drive the band's nautical rock sound. Her bass, adorned with intricate sea-themed designs, adds a powerful foundation to their music. Known for her dynamic stage presence and fierce energy, Lila’s rhythms mimic the ebb and flow of ocean waves. Raised on the shores of a bustling port town, Lila brings both a love for the sea and a deep passion for music to her role, anchoring the band’s sound with her captivating bass lines.",
+    "url": "/assets/images/band/lila.jpeg"
+  },
+  {
+    "name": "Riley \"Riptide\" Harper",
+    "description": "Riptide Harper is the drummer, with a makeshift drum set crafted from barrels and ship parts. His drumming style is as powerful as the roar of the ocean, and his explosive movements on stage drive the band forward. Riley was once a sailor before discovering his true passion for music, and his maritime experience gives him a unique edge in his rhythms.",
+    "url": "/assets/images/band/riley.jpeg"
   }
+
 ]
