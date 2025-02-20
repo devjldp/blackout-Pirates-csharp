@@ -1,0 +1,37 @@
+
+.member-container{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.member-image{
+  width: 100%;
+  flex: 1;
+  /* flex-grow: 1; */
+}
+.info-container{
+  width: 100%;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  /* flex-grow: 1; */
+  /* flex-grow: 2; */
+}
+
+
+
+
+
+
+.name-member{
+  font-family: var(--band-member-name);
+}
+
+.description-member{
+  font-family: var(--band-member-description)
+}

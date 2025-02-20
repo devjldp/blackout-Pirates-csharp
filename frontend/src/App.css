@@ -1,13 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Island+Moments&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Island+Moments&family=Cinzel:wght@400..900&family=IM+Fell+English:ital@0;1&family=Pirata+One&display=swap');
 /* using variables */
 :root {
+  /* colours */
   --background-color: #000000;
   --main-title: #FF8438;
   --link-hover: #f0f8ff;
   --link-colors: #FF8438;
   --navBar-bg: rgba(64, 63, 63, 0.85);
+  /*  Fonts */
   --font-title: "Irish Grover", serif;
   --font-link: "Island Moments", serif;
+  --band-member-name : "Pirata One", serif;
+  --band-member-description: "IM Fell English", serif;
 }
 
 body{
