@@ -10,11 +10,13 @@ const Band = () => {
 
     return(
       <>
-        <h1 className="text-white">Band</h1>;
+        <h1 className="text-white"> Meet the Band</h1>;
         {
-          members.map(member => {
+          members.map((member, index) => {
+            const isLeft = index % 2 === 0; //false for odd index
+            console.log(isLeft)
             return(
-                <BandMember memberName = {member.name} bio = {member.description} key={member.name}/>
+                <BandMember memberName = {member.name} bio = {member.description} url = {member.url} isLeft = {isLeft} key={member.name}/>
             )
           }
         )

@@ -7,11 +7,31 @@
   justify-content: space-around;
   align-items: center;
 }
-.member-image{
+.member-image-container{
   width: 100%;
+  overflow: hidden;
   flex: 1;
+  border-radius: 50%;
   /* flex-grow: 1; */
 }
+
+.left{
+  order: 0;
+}
+
+.right{
+  order: 1;
+}
+
+.member-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* Hace que la imagen llene el contenedor sin deformarse */
+  object-position: center 20%; /* Centra la imagen */
+  display: block; /* Elimina espacios en blanco extra */
+}
+
+
 .info-container{
   width: 100%;
   flex: 2;
@@ -19,13 +39,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  /* flex-grow: 1; */
-  /* flex-grow: 2; */
 }
-
-
-
-
 
 
 .name-member{
@@ -33,5 +47,6 @@
 }
 
 .description-member{
-  font-family: var(--band-member-description)
+  font-family: var(--band-member-description);
+  width: 80%
 }
