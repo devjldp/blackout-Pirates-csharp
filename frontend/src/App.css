@@ -7,6 +7,7 @@
   --link-hover: #f0f8ff;
   --link-colors: #FF8438;
   --navBar-bg: rgba(64, 63, 63, 0.85);
+  --main-text: #fafafa;
   /*  Fonts */
   --font-title: "Irish Grover", serif;
   --font-link: "Island Moments", serif;
@@ -32,7 +33,7 @@ main{
   color: white;
 }
 
-.main-title
+.main-header
 {
   color: var(--main-title);
   text-align: center;
