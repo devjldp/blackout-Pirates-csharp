@@ -22,7 +22,6 @@ function App() {
 
   return (
     <div>
-      <header>
         <BrowserRouter>
         {/* components and routes go here  */}
           <NavBar />
@@ -35,7 +34,7 @@ function App() {
             <Route path='/login' element={<LogIn/>} />
           </Routes>
         </BrowserRouter>
-      </header>
+
 
       <footer>
       </footer> 

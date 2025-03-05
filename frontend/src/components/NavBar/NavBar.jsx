@@ -1,17 +1,25 @@
 // imports
 import styles from './NavBar.module.css';
 
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router'; 
 
 const NavBar = () => {
+  const [heightNavbar, setHeightNavbar] = useState(0);
+
+  useEffect(() => {
+    const height = document.getElementById('navBar').offsetHeight;
+    setHeightNavbar(height);
+    // console.log('Navbar height:', height);
+  }, []);
+
   return (
-    <div className = {`${styles['navBar']}`}  >
+    <div className = {`${styles['navBar']}`} id='navBar' >
         <h1>BlackOut Pirates</h1>
         <nav>
             <ul className={`${styles['navBar-links']}`} >
                 <li>
-                  <Link to="/" className={`${styles['navBar-link']}`}>Home</Link>
+                  <Link to="/" state={{ test: heightNavbar }} className={`${styles['navBar-link']}`}>Home</Link>
                 </li>
                 
                 <li>

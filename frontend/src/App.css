@@ -7,12 +7,16 @@
   --link-hover: #f0f8ff;
   --link-colors: #FF8438;
   --navBar-bg: rgba(64, 63, 63, 0.85);
-  --main-text: #fafafa;
+  --secondary-text: #fafafa;
   /*  Fonts */
   --font-title: "Irish Grover", serif;
   --font-link: "Island Moments", serif;
   --band-member-name : "Pirata One", serif;
   --band-member-description: "IM Fell English", serif;
+}
+
+.text-white{
+  color: white;
 }
 
 body{
@@ -24,19 +28,69 @@ main{
   margin: 0 auto;
   text-align: center;
 }
-#main-image{
-  width: 80%;
+
+/* Home  */
+
+#main-home{
+  height: 100dvh;
+  width: 100dvw;
+  position: fixed;
+  top: 0;
 }
 
-
-.text-white{
-  color: white;
+#home-headers{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0 2% 1%;
+  position: relative;
+  top: 8vh;
 }
 
-.main-header
-{
+.main-header{
   color: var(--main-title);
   text-align: center;
   font-family: var(--font-link);
   font-size: 650%;
+  margin: 0;
+}
+
+.subheader{
+  color: var(--secondary-text);
+  font-family: var(--band-member-name);
+  text-align: center;
+  font-size: 200%;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+/* Container to set the main image  */
+
+
+#main-image{
+    width: 100%;
+    background: url('../public/assets/images/mainImage.webp') no-repeat center center;
+    background-size: cover;
+    min-height: 100%;
+    background-attachment: fixed;
+}
+
+#home-button{
+  background-color: var(--link-colors);
+  padding: 1% 2%;
+  border-radius: 25px;
+  color: var(--secondary-text);
+  text-decoration: none;
+  font-size: xx-large;
+  font-family: var(--band-member-description);
+  text-align: center;
+  position: relative;
+  left: 40vw;
+  top: 60vh;
+  /* bottom: -10%; */
+}
+
+#home-button:hover{
+  background-color: var(--link-hover);
+  color: var(--link-colors);
 }
