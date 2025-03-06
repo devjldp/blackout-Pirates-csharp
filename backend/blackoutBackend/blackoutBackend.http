@@ -1,0 +1,6 @@
+@blackoutBackend_HostAddress = http://localhost:5127
+
+GET {{blackoutBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

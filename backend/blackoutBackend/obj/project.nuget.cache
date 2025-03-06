@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "hpiLFDmRQsk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\JoseIungo\\Desktop\\Github\\blackoutpirates\\backend\\blackoutBackend\\blackoutBackend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JoseIungo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0\\microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "C:\\Users\\JoseIungo\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
