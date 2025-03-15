@@ -5,13 +5,14 @@ const LogIn = () => {
   const [password, setPassword] = useState('');
 
   // Handle form submission
+  /*
   const handleSubmit = (e) => {
     e.preventDefault(); // Prevent default form submission
 
     // Create the user data object
     const userData = {
-      userName,
-      password,
+      userName: userName,
+      password: password,
     };
 
     // Send the data to the backend using fetch
@@ -25,12 +26,47 @@ const LogIn = () => {
       .then((response) => response.json()) // Parse the response as JSON
       .then((data) => console.log('Success:', data)) // Handle successful response
       .catch((error) => console.error('Error:', error)); // Handle error
-  };
+  };*/
+
+  // Asynchronous version:
+
+    // Handle form submission
+    const handleSubmit = async (e) => {
+      e.preventDefault(); // Prevent default form submission
+  
+      // Create the user data object
+      const userData = {
+        userName: userName,
+        password: password,
+      };
+  
+      try {
+        // Send the data to the backend using fetch
+        const response = await fetch('http://localhost:5127/api/users', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json', // Send as JSON
+          },
+          body: JSON.stringify(userData), // Convert the data to JSON
+        });
+  
+        // Check if response is ok
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+  
+        const data = await response.json(); // Parse the response as JSON
+        console.log('Success:', data); // Handle successful response
+      } catch (error) {
+        console.error('Error:', error); // Handle error
+      }
+    };
 
   return (
     <>
       <h1 className="text-white">LogIn</h1>
       <div className="text-white">
+      
         <form onSubmit={handleSubmit}>
           <label htmlFor="user">User</label>
           <input

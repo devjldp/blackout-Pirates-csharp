@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("blackoutBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+323948bba0241d2d084939a77c89b08b801e7ace")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b093c01309249bb7bd0c53d1e8769b194afeb1b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("blackoutBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("blackoutBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
